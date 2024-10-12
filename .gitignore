@@ -1,0 +1,35 @@
+# Ignore Python virtual environments
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model files
+*.gguf
+*.bin
+*.ckpt
+models/
+mistral-7b-instruct-v0.1.Q4_K_M.gguf  # Include your specific model
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore other large data
+data/
+output/
+logs/
+
+# Ignore Streamlit config files (if any)
+.streamlit/
+
+# Ignore cached and installed packages
+*.egg-info/
+*.log
+*.cache
